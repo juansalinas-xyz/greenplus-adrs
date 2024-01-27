@@ -1,7 +1,7 @@
 # CSS Framework
 
 - **Status**: accepted
-- **Deciders**: Obi-Wan Kenobi, Qui-Gon Jinn, Anakin Skywalker
+- **Deciders**: 
 - **Date**: 26/01/2024
 
 ## Context
@@ -16,7 +16,7 @@ Se necesita crear una aplicacion pequeña en un tiempo corto.
 
 ### Tailwindcss
 
-- Pro, sintaxis resumida
+- Pro, sintaxis resumida.
 - Pro, no es necesario cambiar de archivo para efectuar cambios.
 - Pro, Facil de utilizar y aprender.
 - Pro, no tendras que usar tu tiempo para nombrar clases.
