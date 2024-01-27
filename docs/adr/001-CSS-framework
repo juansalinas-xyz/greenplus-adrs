@@ -1,0 +1,55 @@
+# CSS Framework
+
+- **Status**: accepted
+- **Deciders**: Obi-Wan Kenobi, Qui-Gon Jinn, Anakin Skywalker
+- **Date**: 26/01/2024
+
+## Context
+
+Se necesita crear una aplicacion pequeña en un tiempo corto.
+
+## Considered Options
+
+- [Tailwindcss](https://tailwindcss.com/)
+- [SCSS](https://sass-lang.com/)
+- [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules/)
+
+### Tailwindcss
+
+- Pro, sintaxis resumida
+- Pro, no es necesario cambiar de archivo para efectuar cambios.
+- Pro, Facil de utilizar y aprender.
+- Pro, no tendras que usar tu tiempo para nombrar clases.
+- Pro,  Las clases de Tailwind están diseñadas para ser independientes y no están vinculadas a la estructura del HTML. Esto fomenta un bajo acoplamiento entre el diseño y la lógica de la aplicación, facilitando el mantenimiento y la escalabilidad.
+- Pro, Tailwind se integra fácilmente con JavaScript y frameworks front-end.
+- Pro, 
+- Cons, puede volverse muy verborragico.
+- Cons, puede llegar a ser desprolijo, y por ende confuso para quien lo lee.
+- Cons, de llegar a guardar porsiones de codigo en variables, se estaria perdiendo la comodidad de no pensar nombres de clases.
+- Cons, Al aplicar clases directamente en el HTML, el archivo HTML puede volverse más grande y contener una cantidad considerable de clases. Esto puede afectar la legibilidad del HTML, especialmente en proyectos grandes.
+- Cons, la configuración inicial puede requerir tiempo para ajustarse a las preferencias del proyecto. 
+- Cons, Para proyectos con requisitos de diseño muy específicos y únicos, el enfoque utilitario de Tailwind podría no ser la mejor opción.
+- Cons, si no se aplica de manera consistente, el uso intensivo de clases de utilidad podría resultar en inconsistencias en el estilo entre diferentes partes de la aplicación, especialmente en equipos grandes donde múltiples desarrolladores trabajan en el mismo proyecto.
+
+### SCSS
+
+- Pro, sintaxis identica a css pero mejorada.
+- Pro, puede organizar mejor el codigo.
+- Pro, la anidación de selectores en SCSS ayuda a organizar el código de manera más jerárquica, haciendo que la estructura del CSS sea más intuitiva y fácil de entender.
+- Pro, posee bloques de codigo que se pueden reutilizar.
+- Pro, incluye operadores matemáticos y funciones que permiten realizar cálculos y manipulaciones de valores directamente en el código, lo que puede simplificar el diseño.
+- Pro, Puedes anidar reglas de media queries directamente dentro de los selectores, lo que ayuda a mantener las reglas asociadas juntas.
+- Cons, la curva de aprendizaje puede ser un desafío para los principiantes.
+-Cons, aunque la anidación de selectores puede mejorar la legibilidad, el abuso de esta característica puede llevar a la generación de código CSS excesivamente específico y difícil de mantener.
+- Cons, en proyectos pequeños o simples, la introducción de un preprocesador como SCSS puede ser considerada innecesaria y agregar complejidad adicional al proceso de desarrollo.
+-Cons, si no se configura adecuadamente, puede generar problemas de mantenimiento, especialmente en equipos donde no todos los miembros están familiarizados con Sass.
+
+### CSS Modules
+
+- Pro, una de las principales ventajas es que encapsula los estilos dentro de módulos, evitando conflictos de nombres y colisiones de estilos entre diferentes partes de la aplicación. Cada módulo tiene su propio ámbito, lo que facilita el desarrollo y el mantenimiento.
+- Pro, al reducir la interferencia entre estilos de diferentes partes de la aplicación, facilita el trabajo en equipo. 
+- Pro, es especialmente beneficioso en proyectos grandes y escalables. A medida que la aplicación crece, la encapsulación y el scoping ayudan a evitar problemas comunes asociados con el mantenimiento de grandes bases de código de estilo.
+- Cons, en proyectos pequeños o simples, la introducción de módulos CSS puede ser considerada innecesaria y agregar complejidad adicional al proceso de desarrollo.
+- Cons, Si se divide en exceso el código en muchos módulos pequeños, podría generar una excesiva granularidad y aumentar la complejidad del mantenimiento.
+- Cons, en proyectos grandes, la generación de identificadores únicos para cada clase puede resultar en un mayor tiempo de compilación.
+- Cons, algunas herramientas y bibliotecas de terceros pueden no ser compatibles de forma nativa
