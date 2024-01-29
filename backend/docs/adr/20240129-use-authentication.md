@@ -1,16 +1,14 @@
 # Authentication management
 
 - **Status**: proposed
-- **Deciders**: Johann Meza
+- **Deciders**: -
 - **Date**: 01/29/2024
 
 ## Context and Problem Statement
 
-In the development of a web platform, we need a robust and efficient authentication system to guarantee the security and proper management of user identity.
+When developing a web platform, it is expected to be secure; users expect that their access data does not have to be vulnerable.
 
-Currently, we face challenges with the traditional authentication approach, which is complex to manage, presents security risks, and does not provide an optimal experience for users.
-
-With Auth0, we can centralize user management, improve security, and offer a smoother login experience for our users.
+Many web platforms provide a way to log in with your Google account, giving the user easy access to their accounts.
 
 ## Decision Drivers
 
@@ -21,10 +19,6 @@ With Auth0, we can centralize user management, improve security, and offer a smo
 
 - [Auth0 NextJS](https://auth0.com/docs/quickstart/webapp/nextjs)
 - [JWT](https://jwt.io/introduction)
-
-## Decision Outcome
-
-Chosen option: Auth0, easy implementation, test mode with 7500 users, large community and security. Integrations with multiple platforms
 
 ### Positive Consequences
 
@@ -40,14 +34,16 @@ Chosen option: Auth0, easy implementation, test mode with 7500 users, large comm
 
 ### JWT (JSON Web Tokens)
 
-- Good, because JWT provides a secure method to authenticate users using tokens.
-- Good, because have a large community
-- Good, because From the backend you do not need to have a record of the tokens
-- Bad, because have the token exposed in the client's browser
+- Pro, because JWT provides a secure method to authenticate users using tokens.
+- Pro, because have a large community
+- Pro, because From the backend you do not need to have a record of the tokens
+- Cons, because have the token exposed in the client's browser
 
 ### Auth0
 
-- Good, because auth0 offers easy integration with various platforms and technologies
-- Good, because implements security practices and provides tools to monitor and respond to potential security threats
-- Bad, because depending on plan and usage, using Auth0 may incur additional costs
-- Bad, because depends on a third-party service for authentication management
+- Pro, because auth0 offers easy integration with various platforms and technologies
+- Pro, because implements security practices and provides tools to monitor and respond to potential security threats
+- Pro, because robust and efficient authentication system to guarantee the security and proper management of user identity.
+- Pro, because centralized user management, improve security, and offer a smoother login experience for our users.
+- Cons, because depending on plan and usage, using Auth0 may incur additional costs
+- Cons, because depends on a third-party service for authentication management
