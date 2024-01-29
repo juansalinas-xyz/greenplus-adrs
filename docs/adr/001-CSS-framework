@@ -13,6 +13,7 @@ We need to create a small application in a short time.
 - [Tailwindcss](https://tailwindcss.com/)
 - [SCSS](https://sass-lang.com/)
 - [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules/)
+- [Material UI](https://mui.com/material-ui/getting-started)
 
 ### Tailwindcss
 
@@ -52,3 +53,10 @@ We need to create a small application in a short time.
 - Cons, If the code is divided too much into many small modules, it could lead to excessive granularity and increase maintenance complexity.
 - Cons, in large projects, generating unique identifiers for each class can result in increased compile time.
 - Cons, some third-party tools and libraries may not be supported natively
+
+### Material UI
+- Pro, ease of integration of components.
+- Pro, quick start of a project
+- Pro, variety of components already implemented.
+- Pro, large community
+- Pro, integration with typescript
