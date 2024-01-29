@@ -6,7 +6,15 @@
 
 ## Context and Problem Statement
 
-You need a provider to send emails and SMS, which is easy to implement, contains good documentation, service support and a community of developers.
+We need a provider to send emails and SMS.
+
+## Decision Drivers
+
+- Ease of integration.
+- Costs of using the service.
+- Documentation, if good, complete.
+- Service support.
+- Developer community.
 
 ## Considered Options
 

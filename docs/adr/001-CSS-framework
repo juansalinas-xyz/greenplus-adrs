@@ -4,9 +4,15 @@
 - **Deciders**: -
 - **Date**: 26/01/2024
 
-## Context
+## Context and Problem Statement
 
 We need to create a small application in a short time.
+
+## Decision Drivers
+
+- Easy implementation
+- Fast learning
+- Integration with next-react
 
 ## Considered Options
 
