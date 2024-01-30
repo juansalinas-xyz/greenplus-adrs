@@ -34,16 +34,16 @@ Many web platforms provide a way to log in with your Google account, giving the 
 
 ### JWT (JSON Web Tokens)
 
-- Pro, because JWT provides a secure method to authenticate users using tokens.
-- Pro, because have a large community
-- Pro, because From the backend you do not need to have a record of the tokens
-- Cons, because have the token exposed in the client's browser
+- Good, because JWT provides a secure method to authenticate users using tokens.
+- Good, because have a large community
+- Good, because From the backend you do not need to have a record of the tokens
+- Bad, because have the token exposed in the client's browser
 
 ### Auth0
 
-- Pro, because auth0 offers easy integration with various platforms and technologies
-- Pro, because implements security practices and provides tools to monitor and respond to potential security threats
-- Pro, because robust and efficient authentication system to guarantee the security and proper management of user identity.
-- Pro, because centralized user management, improve security, and offer a smoother login experience for our users.
-- Cons, because depending on plan and usage, using Auth0 may incur additional costs
-- Cons, because depends on a third-party service for authentication management
+- Good, because auth0 offers easy integration with various platforms and technologies
+- Good, because implements security practices and provides tools to monitor and respond to potential security threats
+- Good, because robust and efficient authentication system to guarantee the security and proper management of user identity.
+- Good, because centralized user management, improve security, and offer a smoother login experience for our users.
+- Bad, because depending on plan and usage, using Auth0 may incur additional costs
+- Bad, because depends on a third-party service for authentication management
