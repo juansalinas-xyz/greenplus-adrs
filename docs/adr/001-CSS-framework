@@ -12,13 +12,14 @@ We need to create a small application in a short time.
 
 - Easy implementation
 - Fast learning
-- Integration with next-react
+- Should be easy to integrate MUI to the project with this framework
 
 ## Considered Options
 
 - [Tailwindcss](https://tailwindcss.com/)
 - [SCSS](https://sass-lang.com/)
 - [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules/)
+- [Material-UI](https://mui.com/)
 
 ### Tailwindcss
 
@@ -58,3 +59,15 @@ We need to create a small application in a short time.
 - Cons, If the code is divided too much into many small modules, it could lead to excessive granularity and increase maintenance complexity.
 - Cons, in large projects, generating unique identifiers for each class can result in increased compile time.
 - Cons, some third-party tools and libraries may not be supported natively
+
+### Material-UI
+
+- Pro, ready-to-use components, Material UI provides a wide range of ready-to-use UI components, this can significantly speed up development.
+- Pro, consistent themes and styles, Material UI components follow the Material Design design guide. This provides visual consistency throughout the application.
+- Pro, Responsive, Material UI components are designed to be responsive and work well on different screen sizes.
+- Pro, customizable, components can be easily customized with the theme system to match your brand.
+- Pro, large community, Material UI has a large community so it's easy to get help and support.
+- Cons, learning curve, it may take some time to get familiar with all the available components and how to customize them.
+- Cons, package size, Material UI is quite large and can significantly increase the package size of your app.
+- Cons, frequent releases, Material UI releases new versions frequently, so you may have to update often.
+- Cons, not always native, components don't always behave exactly like native controls, which may confuse some users.
