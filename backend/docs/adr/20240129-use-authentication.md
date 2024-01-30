@@ -20,15 +20,19 @@ Many web platforms provide a way to log in with your Google account, giving the 
 - [Auth0 NextJS](https://auth0.com/docs/quickstart/webapp/nextjs)
 - [JWT](https://jwt.io/introduction)
 
-### Positive Consequences
+## Decision Outcome
 
-- Good documentation
-- Large community
+Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
 
-### Negative Consequences
+### Positive Consequences <!-- optional -->
 
-- If the app grows, a cost will be required
-- Maybe a little complex for those with little experience.
+- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
+- …
+
+### Negative Consequences <!-- optional -->
+
+- [e.g., compromising quality attribute, follow-up decisions required, …]
+- …
 
 ## Pros and Cons of the Options
 
