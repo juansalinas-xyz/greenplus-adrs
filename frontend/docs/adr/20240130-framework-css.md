@@ -1,14 +1,14 @@
 # Framework CSS
 
-- Status: [proposed] <!-- optional -->
-- Deciders: [] <!-- optional -->
-- Date: [YYYY-MM-DD when the decision was last updated] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
+- Status: ACCEPTED
+- Deciders: Didier Brange, Santiago Ianello, Lautaro Carreño, Sofia Torres, Felipe Ponce, Johann Meza, Ariel Vaca, Jorge Agurto, Juan Salinas
+- Date: 31-01-2024 
 
 ## Context and Problem Statement
 
 We need to create a small application in a short time.
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers 
 
 - Easy implementation
 - Fast learning
@@ -23,19 +23,19 @@ We need to create a small application in a short time.
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Chosen option: Tailwindcss and , Material-UI because ... 
 
-### Positive Consequences <!-- optional -->
+### Positive Consequences
 
 - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 - …
 
-### Negative Consequences <!-- optional -->
+### Negative Consequences
 
 - [e.g., compromising quality attribute, follow-up decisions required, …]
 - …
 
-## Pros and Cons of the Options <!-- optional -->
+## Pros and Cons of the Options
 
 ### Tailwindcss
 
