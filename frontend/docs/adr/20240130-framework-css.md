@@ -1,8 +1,8 @@
 # Framework CSS
 
-- Status: [proposed] <!-- optional -->
-- Deciders: [] <!-- optional -->
-- Date: [YYYY-MM-DD when the decision was last updated] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
+- Status: accepted <!-- optional -->
+- Deciders: - <!-- optional -->
+- Date: 31/01/24 <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
 
 ## Context and Problem Statement
 
@@ -23,17 +23,18 @@ We need to create a small application in a short time.
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Chosen option: "Material-UI" and "Tailwindcss", because it is the option that will give us more speed and dynamism, to achieve not only good results, but also agility.
 
 ### Positive Consequences <!-- optional -->
 
-- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
-- …
+- Easy implementation
+- Creation speed
+- Easy learning
+- Good design
 
 ### Negative Consequences <!-- optional -->
 
-- [e.g., compromising quality attribute, follow-up decisions required, …]
-- …
+- Generic aesthetics
 
 ## Pros and Cons of the Options <!-- optional -->
 
