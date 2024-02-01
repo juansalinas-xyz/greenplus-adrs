@@ -1,8 +1,8 @@
 # Authentication management
 
-- **Status**: proposed
-- **Deciders**: -
-- **Date**: 01/29/2024
+- Status: ACCEPTED
+- Deciders: Didier Brange, Santiago Ianello, Lautaro Carreño, Sofia Torres, Felipe Ponce, Johann Meza, Ariel Vaca, Jorge Agurto, Juan Salinas
+- Date: 31-01-2024 
 
 ## Context and Problem Statement
 
@@ -22,14 +22,14 @@ Many web platforms provide a way to log in with your Google account, giving the 
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Chosen option: Auth0, because ... 
 
-### Positive Consequences <!-- optional -->
+### Positive Consequences
 
 - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 - …
 
-### Negative Consequences <!-- optional -->
+### Negative Consequences
 
 - [e.g., compromising quality attribute, follow-up decisions required, …]
 - …
