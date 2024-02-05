@@ -1,17 +1,17 @@
 # Notifications provider
 
-- **Status**: proposed
-- **Deciders**: -
-- **Date**: 28/01/2024
+- **Status**: ACCEPTED
+- **Deciders**: Juan Salinas, Jorge Agurto
+- **Date**: 05/02/2024
 
 ## Context and Problem Statement
 
-We need a provider to send emails and SMS.
+We need a provider to send emails
 
 ## Decision Drivers
 
 - Ease of integration.
-- Costs of using the service.
+- Low costs of using the service.
 - Documentation, if good, complete.
 - Service support.
 - Developer community.
@@ -24,17 +24,15 @@ We need a provider to send emails and SMS.
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Chosen option: SendGrid, because it has good documentation to integrate, an it is a easy service to integrate, it has a good dashboard, and it has a free plan with 100 emails/day forever
 
 ### Positive Consequences
 
-- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
-- …
+- Fast development process because it has good documentation and several examples
 
 ### Negative Consequences
 
-- [e.g., compromising quality attribute, follow-up decisions required, …]
-- …
+- Plan up to 100 emails/day
 
 ## Pros and Cons of the Options
 
