@@ -23,17 +23,14 @@ We need to create a small application in a short time.
 
 ## Decision Outcome
 
-Chosen option: Tailwindcss and , Material-UI because ... 
+Chosen option: Tailwindcss and Material-UI. Tailwindcss offers flexibility to create components from scratch, Material-UI offers a set of ready-to-use components
 
 ### Positive Consequences
 
-- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
-- …
+- The development process will be faster using Material-UI and using Tailwindcss will give flexibility because it allows to create components from scratch
 
 ### Negative Consequences
 
-- [e.g., compromising quality attribute, follow-up decisions required, …]
-- …
 
 ## Pros and Cons of the Options
 

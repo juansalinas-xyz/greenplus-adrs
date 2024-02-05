@@ -22,17 +22,15 @@ Many web platforms provide a way to log in with your Google account, giving the 
 
 ## Decision Outcome
 
-Chosen option: Auth0, because ... 
+Chosen option: Auth0, because it offers an easy an fast way to create an authorization/ authentication process
 
 ### Positive Consequences
 
-- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
-- …
+- The development process for authorization and authentication will be faster
 
 ### Negative Consequences
 
-- [e.g., compromising quality attribute, follow-up decisions required, …]
-- …
+- Free plan allow only 7.500 active users 
 
 ## Pros and Cons of the Options
 
